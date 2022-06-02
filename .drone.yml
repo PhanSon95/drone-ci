@@ -4,8 +4,9 @@ name: default
 
 steps:
 - name: build
-  image: plugins/docker
-  repo: busybox1
-  username: sonph1995
-  password: sonph1995
+  publish:
+    image: plugins/docker
+    repo: busybox1
+    username: sonph1995
+    password: sonph1995
 ...
