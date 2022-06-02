@@ -4,6 +4,7 @@ name: default
 
 steps:
 - name: publish
+  image: plugins/docker
   settings:
     username: sonph1995
     password: sonph1995
