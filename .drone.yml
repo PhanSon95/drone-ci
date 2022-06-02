@@ -3,10 +3,10 @@ kind: pipeline
 name: default
 
 steps:
-- name: build
-  publish:
-    image: plugins/docker
-    repo: busybox1
+- name: publish
+  settings:
     username: sonph1995
     password: sonph1995
+    repo: sonph1995/busytest
+    dockerfile: Dockerfile
 ...
